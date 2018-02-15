@@ -80,7 +80,7 @@ def binary_to_net(weights, spm_stream, ind_stream, codebook, num_nz):
     elif bits == 8:
         slots = 1
     else:
-        print "Not impemented,", bits
+        print "Not implemented,", bits
         sys.exit()
     code = np.zeros(weights.size, np.uint8) 
 
